@@ -1,0 +1,10 @@
+[
+    {
+        "name": "ProcessCollection",
+        "policy": "OR('FarmersMSP.member', 'ProcessorsMSP.member')",
+        "requiredPeerCount": 1,
+        "maxPeerCount": 1,
+        "blockToLive": 100,
+        "memberOnlyRead": true
+    }
+]
